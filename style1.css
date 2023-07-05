@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@300&display=swap');
+* {
+    font-family: 'Comme', sans-serif;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color:#4a2b13;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color:#ffa849;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 10px 5px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px black;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight:lighter;
+    color:rgb(0, 0, 0);
+}
+#input {
+    font-size: 1.3rem;
+    background-color: rgb(249, 225, 192);
+    justify-self: right;
+    width: 210px;
+    height: 30px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    text-align: right;
+    box-shadow: inset 3px 3px rgba(72, 71, 71, 0.363);
+}
+button {
+    font-size: 0.9rem;
+    width: 99%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px black;
+    transition-duration: 0.2s;
+}
+.one {
+    width: 72px;
+}
+#screen_major, #screen_non_major {
+    font-size: 0.9rem;
+    background-color: rgb(249, 225, 192);
+    width: 77px;
+    height:350px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    resize: none;
+    outline: none;
+    text-align: center;
+    box-shadow: inset 3px 3px rgba(72, 71, 71, 0.363);
+}
+#screen_non_major {
+    margin-right: 5px;
+}
+.remove {
+    background-color: #ffffb5;
+}
+.letter {
+    background-color: #7bc67b;
+}
+.major {
+    background-color: #587733;
+}
+.three {
+    background-color: #b9703c;
+}
+nav {
+    display: flex;
+    padding-bottom: 20px;
+}
+.bar {
+    background-color: #ffffb5;
+    width: 120px;
+    height: 50px;
+    margin: 0 20px 0 20px;
+}
+button:hover {
+    background-color: #fecfc7;
+}
+button:active {
+    box-shadow: inset 1px 1px black;
+}
